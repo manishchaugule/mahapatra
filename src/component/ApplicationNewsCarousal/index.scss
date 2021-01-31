@@ -1,0 +1,42 @@
+.application-news-carousal{
+    padding-bottom: 30px;
+    .slick-prev{
+        position: relative;
+        left: 0px;
+        z-index: 2;
+        background-color: #fff;
+        height: 70px;
+        width: 30px;
+        padding: 0 5px;
+        top: 30px;
+        &:before{
+            color: #000;
+        }
+    }
+    .slick-slider {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .slick-next{
+        position: relative;
+        right: 0px;
+        z-index: 2;
+        background-color: #fff;
+        height: 70px;
+        width: 30px;
+        padding: 0 5px;
+        top: 30px;
+        &:before{
+            color: #000;
+        }
+    }
+    &__list{
+        
+    }
+    &__item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

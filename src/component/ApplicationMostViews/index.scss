@@ -1,0 +1,18 @@
+.application-most-views{
+    &__title{
+        font-size: 24px;
+        font-weight: 600;
+        padding: 15px 0;
+    }
+    &__post-list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+    &__post-index{
+        color: #62686E;
+        font-size: 40px;
+    }
+    
+}

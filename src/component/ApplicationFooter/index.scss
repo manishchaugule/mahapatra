@@ -1,0 +1,19 @@
+.application-footer{
+    font-size: 20px;
+    color: #848F9B; 
+    padding: 15px 0;
+    background-color: #62686E;
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__data:not(:last-child){
+            padding-right: 15px;
+        }
+    }
+}

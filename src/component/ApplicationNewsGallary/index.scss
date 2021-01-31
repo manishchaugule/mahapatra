@@ -1,0 +1,25 @@
+.application-news-gallary{
+    &__image{
+        padding: 0 12px;
+    }
+    .slick-prev{
+        left: 11px;
+        z-index: 2;
+        background-color: #fff;
+        height: 70px;
+        width: 30px;
+        &:before{
+            color: #000;
+        }
+    }
+    .slick-next{
+        right: 11px;
+        z-index: 2;
+        background-color: #fff;
+        height: 70px;
+        width: 30px;
+        &:before{
+            color: #000;
+        }
+    }
+}

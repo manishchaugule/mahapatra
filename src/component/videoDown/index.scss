@@ -1,0 +1,18 @@
+.application-video-down{
+    background-color: #F2F5F9;
+    width: 85%;
+    margin: 0 auto;
+    &__container{
+        width: 94%;
+        margin: 0 auto;
+        display: flex;
+        position: relative;
+        .card__date{
+            padding-bottom: 15px;
+        }
+    }
+    &__video{
+        position: relative;
+        top:-5%
+    }
+}

@@ -1,0 +1,26 @@
+.application-video-news {
+    background-color: #384253;
+    position: relative;
+    margin: 300px 0 420px;
+    &__container {
+    }
+    &__up {
+        font-size: 16[x];
+        position: relative;
+        top:-280px
+    }
+    &__down {
+        position: absolute;
+        bottom: -400px;
+    }
+    &__title {
+        position: relative;
+        top: -230px;
+        width: 85%;
+        margin: 0 auto;
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 600;
+        padding: 15px 0;
+    }
+}

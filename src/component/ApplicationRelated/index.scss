@@ -1,0 +1,34 @@
+.application-related {
+    &__buttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 35px;
+    }
+    &__button {
+        background-color: #fff;
+        font-size: 16px;
+        padding: 10px 11px;
+        font-weight: 600;
+        text-transform: uppercase;
+        box-shadow: 1px 1px 22px 1px rgba(0, 0, 0, 0.58);
+        -webkit-box-shadow: 1px 1px 22px 1px rgba(0, 0, 0, 0.58);
+        -moz-box-shadow: 1px 1px 22px 1px rgba(0, 0, 0, 0.58);
+        &:hover {
+            border-color: #0251d6;
+        }
+    }
+    &__container {
+        .application-most-views {
+            &__post-list:not(:last-child) {
+                border-bottom: 2px dotted #62686e;
+                padding-bottom: 20px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+.selected {
+    background-color: #0251d6;
+    color: #fff;
+}
